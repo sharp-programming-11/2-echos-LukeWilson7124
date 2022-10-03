@@ -1,4 +1,4 @@
-# PRG11-2-echos
+Af.hjgjsxbc# PRG11-2-echos
 
 Assignment to see and practice echoing things to an HTML doc.
 
@@ -15,3 +15,4 @@ See the starter code for what this looks like.
 3. Use echo statements to set a unique `id` for each `<body>` element so that your single css file can provide different styles to each one.
 4. Write rules into your css file so that each php file has a different background colour using the unique body ids
 5. Echo some content from variables at the top of each php file into the html documents they contain.
+gghi bÒÍZHx…≥zxc

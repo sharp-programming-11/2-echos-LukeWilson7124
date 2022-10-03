@@ -2,9 +2,7 @@
 
 //Define some variables to be echoed in HTML body
 
-$my_str = "A string I want to print out";
-$my_bool = true;
-$my_float = 13.0;
+$my_str = "home";
 
 ?>
 
@@ -12,17 +10,21 @@ $my_float = 13.0;
 <html>
   <head>
     <title>Echos</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-  
-    <h1> A page full of echo-printed variables </h1>
-  
+  <body id="<?php echo $my_str;?>">
+
+    <h1> This is page one  </h1>
+
    <h2> Here they are: </h2>
-    <ul>
-      <li> String: <?php echo $my_str; ?> </li>
-      <li> Boolean: <?php echo $my_bool; ?> </li>
-     <li> Float: <?php echo $my_float; ?> </li>
-   </ul>
-   
+
+      <ul>
+      <li> <a  a href="index.php"> first php file  </a> </li>
+        <li> <a href="2.php"> second php file </a> </li>
+            <li> <a href="3.php"> third php file </a> </li>
+                <li> <a href="4.php"> fourth php file </a> </li>
+     </ul>
+
+
   </body>
 </html>
